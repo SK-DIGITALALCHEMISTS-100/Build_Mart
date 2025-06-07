@@ -12,7 +12,7 @@ $host = "localhost";
 $dbname = "build_mart";
 $username = "root";
 $password = "";
-$port = 3306; // Update if using a custom port
+$port = 3307; // Update if using a custom port
 
 $conn = new mysqli($host, $username, $password, $dbname, $port);
 
