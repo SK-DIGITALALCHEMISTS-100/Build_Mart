@@ -72,10 +72,6 @@
                     <input type="email" class="form-control" id="email" placeholder="Enter your email" required>
                 </div>
                 <div class="mb-3">
-                    <label for="password" class="form-label">Password</label>
-                    <input type="password" class="form-control" id="password" placeholder="Enter your password" required>
-                </div>
-                <div class="mb-3">
                     <label for="phone" class="form-label">Phone Number</label>
                     <input type="tel" class="form-control" id="phone" placeholder="Enter your phone number" required>
                 </div>
@@ -83,7 +79,7 @@
             </form>
 
             <!-- Back Button -->
-            <br><a href="../index.html" class="btn-back mt-3">Back to Home</a>
+            <br><a href="home.html" class="btn-back mt-3">Back to Home</a>
         </div>
     </div>
 
@@ -98,7 +94,6 @@
             let name = document.getElementById("name").value;
             let company = document.getElementById("company").value;
             let email = document.getElementById("email").value;
-            let password = document.getElementById("password").value;
             let phone = document.getElementById("phone").value;
 
             // Create a user object
@@ -106,7 +101,6 @@
                 name: name,
                 company: company,
                 email: email,
-                password: password,
                 phone: phone
             };
 
@@ -133,7 +127,6 @@
             });
         });
     </script>
-  
 
 </body>
 </html>
